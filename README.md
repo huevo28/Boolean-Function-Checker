@@ -11,6 +11,7 @@ This program generates an array of booleans to input into a boolean algebra func
 # alg_function
 When editing this function, be sure that the algebraic expression is properly written. Be sure to properly represent each variable with the corresponding `index[i]` value. For example, if your function is the following:
 > F = (A · B) + NOT(C)
+
 Write into the `return` line like this:
 
     return (char)(index[0] * index[1]) + !index[2]; 
